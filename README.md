@@ -1,40 +1,68 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Lien du site statique : https://hundleyjoseph.github.io/test-technique-calculatrice/
 
-## Getting Started
+## Description du projet 
 
-First, run the development server:
+Projet visant a concevoir et recréer une calculatrice avec des fonctionnalités de base tout en ayant une interface réactive et conviviale.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Table des matières
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Technologies utilisées](#technologies-utilisées)
+- [Installation](#installation)
+- [Calculatrice](#calculatrice)
+- [Description des boutons](#description-des-boutons)
+- [License](#license)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Technologies utilisées
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- React et Next.js pour la réalisation
+- CSS implémenté avec le framework "Tailwindcss"
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Installation
 
-## Learn More
+1. Cloner le projet : `git clone https://github.com/hundleyjoseph/test-technique-calculatrice.git`
+2. Se déplacer vers le répertoire du projet : `cd test-technique-calculatrice`
+3. Utiliser l'une des commandes suivantes pour démarrer le serveur de développement :
 
-To learn more about Next.js, take a look at the following resources:
+    ```bash
+    npm run dev
+    # ou
+    yarn dev
+    # ou
+    pnpm dev
+    # ou
+    bun dev
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. Par défaut, l'adresse du serveur est `http://localhost:3000/`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Calculatrice
 
-## Deploy on Vercel
+### Description des boutons
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+|  Bouton    | Utilisation                             |
+|:----:|-----------------------------------------------------|
+|  AC  | Efface toute la saisie                              |
+|  π   | Utilisation de la constance PI                      |
+|  ^   | Permet d'élever un nombre à une puissance           |
+|  ⌫   | Bouton de retour                                    |
+|  !   | Calcul de la factorielle                            |
+|  ( )  | Parenthèses                                    |
+|  %   | Calcul du pourcentage d'un nombre                   |
+|  √   | Calcul de la racine d'un nombre                     |
+|  +/- | Changer le signe d'un nombre                        |
+|  Mod | Calculer le reste d'une division (modulo)           |
+|  + - × ÷ | Opérateurs standards                          |
+|  0 - 9   | Chiffres standards    |
+|  =   | Afficher le résultat pour l'utiliser    |
+|  .   | Utiliser des nombres décimaux                       |  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+ 
+Lorsqu'un calcul n'est pas valide et que l'on appuie sur le bouton '=', on voit le message 'Erreur'.
+
+Le CSS est adapté pour un environnement Web ou mobile
+
+
+
+
+

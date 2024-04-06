@@ -187,7 +187,7 @@ export default function Home() {
       <div className="w-full max-w-full flex justify-center items-center h-full lg:h-4/5">
         <div className="h-full w-full lg:w-2/6">
           <div className="hidden lg:block text-center text-2xl">Test technique - Calculatrice</div>
-          <table className="bg-gray-600 border border-gray-400 w-full h-full" style={{ tableLayout: 'fixed' }}>
+          <table className="bg-gray-600 border border-gray-400 w-screen h-screen lg:w-full lg:h-full" style={{ tableLayout: 'fixed' }}>
             <tbody onClick={boutonClick}>
               <tr>
                 <td colSpan="4" className="border border-gray-400 w-full h-56 lg:h-38 "><div className="text-6xl " id="champCalcul"></div><div className="text-3xl" id="champRésultat"></div></td>
